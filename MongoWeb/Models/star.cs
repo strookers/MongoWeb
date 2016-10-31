@@ -6,11 +6,12 @@ using System.Web;
 
 namespace MongoWeb.Models
 {
-    public class star
+    public class Star
     {
         [Key]
         public int ID { get; set; }
         public string name { get; set; }
         public string icon { get; set; }
+        public List<CampingPlace> campingPlace { get; set; }
     }
 }

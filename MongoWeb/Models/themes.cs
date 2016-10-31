@@ -6,7 +6,7 @@ using System.Web;
 
 namespace MongoWeb.Models
 {
-    public class themes
+    public class Theme
     {
         [Key]
         public int ID { get; set; }
@@ -14,6 +14,7 @@ namespace MongoWeb.Models
         public string iconUrl { get; set; }
         public string description { get; set; }
         public string name { get; set; }
-        
+
+        public List<CampingPlace> campingPlace { get; set; }
     }
 }

@@ -6,12 +6,12 @@ using System.Web;
 
 namespace MongoWeb.Models
 {
-    public class location
+    public class Location
     {
         [Key]
         public int ID { get; set; }
-        public float lat { get; set; }
-        public float lng { get; set; }
-
+        public double lat { get; set; }
+        public double lng { get; set; }
+        public CampingPlace campingPlace { get; set; }
     }
 }

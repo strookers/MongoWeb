@@ -6,7 +6,7 @@ using System.Web;
 
 namespace MongoWeb.Models
 {
-    public class images
+    public class Image
     {
         [Key]
         public int ID { get; set; }

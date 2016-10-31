@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MongoWeb.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace MongoWeb.Context
             Configuration.LazyLoadingEnabled = false;
             Configuration.ProxyCreationEnabled = false;
         }
-        public DbSet<campingContext> campingPlaces { get; set; }
+        public DbSet<CampingPlace> campingPlaces { get; set; }
+        public DbSet<Location> locations { get; set; }
     }
 }
