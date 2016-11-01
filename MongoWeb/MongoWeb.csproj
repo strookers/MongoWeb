@@ -148,13 +148,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\activity.cs" />
-    <Compile Include="Models\campingPlaces.cs" />
-    <Compile Include="Models\location.cs" />
-    <Compile Include="Models\images.cs" />
-    <Compile Include="Models\info.cs" />
-    <Compile Include="Models\star.cs" />
-    <Compile Include="Models\themes.cs" />
+    <Compile Include="Models\Activity.cs" />
+    <Compile Include="Models\CampingPlace.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\Image.cs" />
+    <Compile Include="Models\Info.cs" />
+    <Compile Include="Models\Star.cs" />
+    <Compile Include="Models\Theme.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

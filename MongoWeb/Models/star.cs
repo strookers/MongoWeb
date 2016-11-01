@@ -9,9 +9,9 @@ namespace MongoWeb.Models
     public class Star
     {
         [Key]
-        public int ID { get; set; }
-        public string name { get; set; }
-        public string icon { get; set; }
-        public List<CampingPlace> campingPlace { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Icon { get; set; }
+        public List<CampingPlace> CampingPlaces { get; set; }
     }
 }

@@ -12,6 +12,5 @@ namespace MongoWeb.Models
         public int ID { get; set; }
         public double lat { get; set; }
         public double lng { get; set; }
-        public CampingPlace campingPlace { get; set; }
     }
 }
