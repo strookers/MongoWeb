@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using MongoDB.Driver;
 using MongoWeb.Models;
+using MongoWeb.Models.Json;
 
 namespace MongoWeb.Controllers
 {
@@ -22,10 +23,11 @@ namespace MongoWeb.Controllers
 
             var db = client.GetDatabase("campanion");
 
-            var collection = db.GetCollection<User>("test");
+            // skal ændres til "camping" men virker ikke
+            var collection = db.GetCollection<Camp>("campingPlaces");
 
-            List<User> users = collection.AsQueryable().ToList();
-            return View(users);
+            List<Camp> camps = collection.AsQueryable().ToList();
+            return View(camps);
         }
 
         public ActionResult Contact()

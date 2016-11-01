@@ -94,3 +94,7 @@ C:\Users\danma\Source\Repos\MongoWeb\MongoWeb\bin\Newtonsoft.Json.xml
 C:\Users\danma\Source\Repos\MongoWeb\MongoWeb\obj\Debug\MongoWeb.csprojResolveAssemblyReference.cache
 C:\Users\danma\Source\Repos\MongoWeb\MongoWeb\obj\Debug\MongoWeb.dll
 C:\Users\danma\Source\Repos\MongoWeb\MongoWeb\obj\Debug\MongoWeb.pdb
+C:\Users\micha\Documents\visual studio 2015\Projects\MongoWeb\MongoWeb\bin\EntityFramework.dll
+C:\Users\micha\Documents\visual studio 2015\Projects\MongoWeb\MongoWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\micha\Documents\visual studio 2015\Projects\MongoWeb\MongoWeb\bin\EntityFramework.xml
+C:\Users\micha\Documents\visual studio 2015\Projects\MongoWeb\MongoWeb\bin\EntityFramework.SqlServer.xml

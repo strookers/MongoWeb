@@ -150,6 +150,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Activity.cs" />
     <Compile Include="Models\CampingPlace.cs" />
+    <Compile Include="Models\Json\Camp.cs" />
     <Compile Include="Models\Location.cs" />
     <Compile Include="Models\Image.cs" />
     <Compile Include="Models\Info.cs" />
