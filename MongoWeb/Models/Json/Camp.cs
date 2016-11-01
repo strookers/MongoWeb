@@ -10,22 +10,22 @@ namespace MongoWeb.Models.Json
     {
         public ObjectId _id { get; set; }
         public int code { get; set; }
-        public string name { get; set; }
-        public string address { get; set; }
-        public string pcpl { get; set; }
-        public double lat { get; set; }
-        public double lng { get; set; }
-        public string web { get; set; }
-        public long tel { get; set; }
-        public long tel1 { get; set; }
-        public long fax { get; set; }
-        public long mob { get; set; }
-        public string email { get; set; }
-        public string webg { get; set; }
-        public int weba { get; set; }
-        public int webc { get; set; }
-        public int webu { get; set; }
-        public int rat { get; set; }
+        public object name { get; set; }
+        public object address { get; set; }
+        public object pcpl { get; set; }
+        public object lat { get; set; }
+        public object lng { get; set; }
+        public object web { get; set; }
+        public object tel { get; set; }
+        public object tel1 { get; set; }
+        public object fax { get; set; }
+        public object mob { get; set; }
+        public object email { get; set; }
+        public object webg { get; set; }
+        public object weba { get; set; }
+        public object webc { get; set; }
+        public object webu { get; set; }
+        public object rat { get; set; }
         public string created_at { get; set; }
     }
 }
